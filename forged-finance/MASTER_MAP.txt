@@ -1,0 +1,27 @@
+# ══════════════════════════════════════════════════════════════
+#  FORGED FINANCE — MASTER MAP (for Batch Processor)
+# ══════════════════════════════════════════════════════════════
+#
+#  Instructions:
+#  1. Edit this file to match YOUR Excel column headers.
+#  2. Assign each column to the correct engine (copy exactly).
+#  3. Save and run: python run_batch.py
+#
+#  FORMAT:  ColumnName | Engine Name
+#
+#  Available engines:
+#    Currency / Finance
+#    Date / Time
+#    Text / Category
+#    Percentage / Rate
+#
+#  Lines starting with # are ignored.
+# ══════════════════════════════════════════════════════════════
+
+# EXAMPLE — replace these with YOUR actual column names:
+Revenue_2026 | Currency / Finance
+Start_Date   | Date / Time
+Department   | Text / Category
+Bonus_%      | Percentage / Rate
+Manager      | Text / Category
+Region       | Text / Category
